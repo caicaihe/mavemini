@@ -1,4 +1,4 @@
-FROM openjdk:8u151-alpine
+FROM cargo.caicloudprivatetest.com/devopstest/jdk:1.8
 
 COPY ./target/ci-test-1.0-SNAPSHOT.jar /
 
